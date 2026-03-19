@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Billetera miBilletera = new Billetera("Juan Perez", 100.0);
+        BilleteraVirtual miBilletera = new BilleteraVirtual("Juan Perez", 100.0);
 
         miBilletera.mostrarSaldo();
 

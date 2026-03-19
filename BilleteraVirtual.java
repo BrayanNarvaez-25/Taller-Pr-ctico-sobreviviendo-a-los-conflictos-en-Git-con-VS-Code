@@ -1,12 +1,11 @@
 public class BilleteraVirtual {
     double saldo;
-    String moneda;
+    String moneda="USD";
     String titular;
     boolean cuentaActiva = true;
 
-    public Billetera(String titular, double balanceTotal) {
+    public BilleteraVirtual(String titular, double balanceTotal) {
         this.titular = titular;
-        this.saldo = saldoInicial;
         this.moneda="USD";
         this.balanceTotal = balanceTotal;
     }
