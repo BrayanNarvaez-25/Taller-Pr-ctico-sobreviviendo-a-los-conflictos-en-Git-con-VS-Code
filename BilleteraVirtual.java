@@ -1,10 +1,12 @@
-public class Billetera {
+public class BilleteraVirtual {
     double saldo;
+    String moneda;
     String titular;
 
     public Billetera(String titular, double saldoInicial) {
         this.titular = titular;
         this.saldo = saldoInicial;
+        this.moneda="USD";
     }
 
     public void transferir(double monto) {
