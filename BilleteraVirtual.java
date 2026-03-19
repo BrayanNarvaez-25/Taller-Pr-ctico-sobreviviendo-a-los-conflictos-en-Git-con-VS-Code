@@ -11,7 +11,8 @@ public class BilleteraVirtual {
     }
 
     public void transferir(double monto) {
-        balanceTotal = balanceTotal - monto;
+        System.out.println("Iniciando transacción...");        
+        balanceTotal = balanceTotal - (monto*1.05);
     }
 
     public void mostrarSaldo() {
