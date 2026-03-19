@@ -22,7 +22,7 @@ public class Main {
         System.out.println("¿Cuánto desea transferir?");
         double monto=montoTrasferir.nextDouble();
         miBilletera.transferir(monto);
-
+        montoTrasferir.close();
 
     }
 }
