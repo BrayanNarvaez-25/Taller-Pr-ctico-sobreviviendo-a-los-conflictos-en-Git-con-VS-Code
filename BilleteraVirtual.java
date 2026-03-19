@@ -11,11 +11,12 @@ public class BilleteraVirtual {
     }
 
     public void transferir(double monto) {
+        System.out.println("Iniciando transacción...");
         if (monto > balanceTotal) {
         System.out.println("Fondos insuficientes");
         return; 
-    }
-        balanceTotal = balanceTotal - monto;
+        }
+        balanceTotal = balanceTotal - (monto*1.05);
         System.out.println("Transferencia exitosa de: $"+monto);
     }
 
